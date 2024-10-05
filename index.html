@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Project</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet"> -->
     <link rel="stylesheet" href="./styles.css">
     <script src="./scripts.js"></script>
     <link rel="icon" type="image/jpg" href="./images/favicon.jpg">
@@ -23,13 +23,13 @@
                     <a href = "#">Home</a>
                 </li>
                 <li>
-                    <a href = "#">Skills</a>
+                    <a href = "#skills">Skills</a>
                 </li>
                 <li>
-                    <a href = "#">Projects</a>
+                    <a href = "#projects">Projects</a>
                 </li>
                 <li>
-                    <a href = "#" class="button">Contact</a>
+                    <a href="mailto: damienherlnata@gmail.com" class="button">Contact</a>
                 </li>
             </ul>
             <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
@@ -60,7 +60,7 @@
                         <a href="#" class="button black">
                             View Resume
                         </a>
-                        <a href="#" class="button white">
+                        <a href="mailto: damienherlnata@gmail.com" class="button white">
                             Contact Me
                         </a>
                     </div>
@@ -125,7 +125,7 @@
             </div>
         </section>
         
-        <section class="skills container">
+        <section id="skills" class="skills container">
             <h2>
                 <small>About Me</small>
                 Skills
@@ -217,7 +217,7 @@
             </div>
         </section>
 
-        <section class="bento container">
+        <section id="projects" class="bento container">
             <h2>
                 <small>
                     Previous
@@ -267,7 +267,7 @@
                         I'm currently looking for a new opportunity. So if you have a project
                         you think I'd be a good fit for, please feel free to get in touch with me!
                     </p>
-                    <a href="#">Download Resume</a>
+                    <a href="#" class="button black">Download Resume</a>
                 </div>
                 <div class="chat-box">
                     <div class="scroll-area">
@@ -279,7 +279,17 @@
                                     this portfolio and CV. How can I help?
                                 </div>
                             </li>
+                            <li>
+                                <span class="avataruser">User</span>
+                                <div class="message">
+                                    I have a question to ask you about this resume
+                                </div>
+                            </li>
                         </ul>
+                    </div>
+                    <div class="chat-message">
+                        <input type="text" placeholder="Hey Damien, what skills are you best at?">
+                        <button class="button black">Send</button>
                     </div>
                 </div>
             </div>
