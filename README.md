@@ -2,6 +2,7 @@
 A beginner portfolio project for learning html, css, js.
  
 This portfolio concludes the skill that I have after 1 year of majoring in Computer Science at BINUS University.
+Keep in mind that this is just a learning project and not a real portfolio.
 The work area of this portfolio is just a template and none of it is changed to my work experience. The same goes for the bento items or completed projects.
 The AI chatbot is also still unavailable and is currently under development.
 
